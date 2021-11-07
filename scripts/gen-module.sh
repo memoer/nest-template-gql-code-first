@@ -16,5 +16,3 @@ mv ${modulePath}/${domainName}.service.ts ${modulePath}/application
 # ? *.spec.ts 파일 이동
 mkdir ${shellPath}/test-unit/src/${domainName}
 mv ${modulePath}/*.spec.ts ${shellPath}/test-unit/src/${domainName}
-# ? *.gql 파일 생성
-touch ${modulePath}/dto/${domainName}.inoutput.gql ${modulePath}/dto/${domainName}.model.gql ${modulePath}/dto/${domainName}.resolver.gql
